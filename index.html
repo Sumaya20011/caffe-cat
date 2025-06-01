@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+
+    
+<header class="hero">
+  <div class="overlay"></div>
+  <div class="content" data-scroll-reveal="enter bottom over 1s after 0.2s">
+    <i class="fas fa-cat icon-main"></i>
+    <h1>Кофе & Кошки</h1>
+    <p>Уютная кофейня, где можно попить ароматный кофе и погладить котиков.</p>
+    <a href="#menu" class="btn">Наше меню</a> 
+    <a href="#visit" class="btn btn-outline">Как нас найти</a>
+  </div>
+</header>
+
+<section class="section" id="menu">
+  <h2 data-scroll-reveal="enter left over 1s after 0.3s"><i class="fas fa-coffee"></i> Наши напитки</h2>
+  <ul class="menu" data-scroll-reveal="enter bottom over 1s after 0.5s">
+    <li>Эспрессо – 100 ₽</li>
+    <li>Латте – 150 ₽</li>
+    <li>Капучино – 140 ₽</li>
+    <li>Чёрный чай – 80 ₽</li>
+    <li>Молочный коктейль – 170 ₽</li>
+  </ul>
+</section>
+
+<section class="section alt">
+  <h2 data-scroll-reveal="enter right over 1s after 0.3s"><i class="fas fa-paw"></i> Наши котики</h2>
+  <p data-scroll-reveal="enter bottom over 1s after 0.5s">В гостях у нас живут: Мурзик, Васька, Барсик, Лиза и Рыжик. Все они добрые, ласковые и обожают гостей!</p>
+  <div class="cats" data-scroll-reveal="enter bottom over 1s after 0.7s">
+    <img src="IMG_7014 2.JPG"  alt="Котик 1">
+   
+  </div>
+</section>
+
+<section class="section why">
+  <h2 data-scroll-reveal="enter top over 1s after 0.3s"><i class="fas fa-clock"></i> Время работы</h2>
+  <p data-scroll-reveal="enter bottom over 1s after 0.5s">
+    Пн–Пт: 9:00 – 21:00<br>
+    Сб–Вс: 10:00 – 22:00
+  </p>
+</section>
+
+<section class="section" id="visit">
+  <h2 data-scroll-reveal="enter left over 1s after 0.3s"><i class="fas fa-map-marker-alt"></i> Как нас найти</h2>
+  <p data-scroll-reveal="enter bottom over 1s after 0.5s">г. Москва, ул. Кофейная, д. 42 (рядом с парком)</p>
+  <!-- Можно вставить карту -->
+  <iframe 
+    src="IMG_7022 2.jpg"
+    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<footer class="footer">
+  <h2 data-scroll-reveal="enter bottom over 1s after 0.3s">Приходи к нам!</h2>
+  <p data-scroll-reveal="enter bottom over 1s after 0.5s">Сделай свой день вкуснее и пушистее 😺☕</p>
+  <div class="socials">
+    <a href="#"><i class="fab fa-vk"></i></a> 
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-telegram"></i></a>
+  </div>
+</footer>
+
+<script>
+  ScrollReveal().reveal('[data-scroll-reveal]');
+</script>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
